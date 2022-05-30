@@ -61,6 +61,15 @@ body {
 
 .alx-head-block {
 	margin-bottom: 80px;
+
+	h1 {
+		font-family: var(--font-family-title);
+		font-size: var(--font-size-title);
+		line-height: var(--line-height-title);
+		font-weight: 700;
+		margin-bottom: 30px;
+	}
+
 	.banner {
 		min-height: 436px;
 		display: flex;

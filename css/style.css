@@ -565,6 +565,14 @@ body h2 {
   margin-bottom: 80px;
 }
 
+.alx-head-block h1 {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-title);
+  line-height: var(--line-height-title);
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
 .alx-head-block .banner {
   min-height: 436px;
   display: -webkit-box;
