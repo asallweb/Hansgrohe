@@ -1,0 +1,70 @@
+button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #c0c0c0;
+	border-radius: 3px;
+	margin: 10px;
+	padding: 10px;
+}
+
+button:focus {
+	background: #8f8f8f;
+}
+
+*,
+*:focus,
+*:focus-visible,
+button:focus,
+button:focus-visible,
+.btn:focus,
+.btn:focus-visible,
+a:focus,
+a:focus-visible,
+.btn,
+a {
+	outline: none !important;
+	outline: 0 !important;
+	outline-width: 0 !important;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-webkit-tap-highlight-color: transparent !important;
+	-webkit-direct-focus: none !important;
+	-webkit-focus-ring-color: transparent auto 0px;
+	outline-style: none !important;
+	outline: -webkit-focus-ring-color auto 0px;
+	outline: transparent auto 0px;
+}
+.btn {
+	outline: none !important;
+	outline: 0 !important;
+	outline-width: 0 !important;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-webkit-tap-highlight-color: transparent !important;
+	-webkit-direct-focus: none !important;
+	-webkit-focus-ring-color: transparent auto 0px;
+	outline-style: none !important;
+	outline: -webkit-focus-ring-color auto 0px;
+	outline: transparent auto 0px;
+}
+a {
+	outline: none !important;
+	outline: 0 !important;
+	outline-width: 0 !important;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	-webkit-tap-highlight-color: transparent !important;
+	-webkit-direct-focus: none !important;
+	-webkit-focus-ring-color: transparent auto 0px;
+	outline-style: none !important;
+	outline: -webkit-focus-ring-color auto 0px;
+	outline: transparent auto 0px;
+
+	&:hover {
+		opacity: 0.7;
+	}
+}

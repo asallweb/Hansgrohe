@@ -1,0 +1,26 @@
+@font-face {
+	font-family: "Abrade";
+	font-style: bold;
+	font-weight: 700;
+	src: url("../fonts/Abrade-Bold.woff2") format("woff2");
+}
+
+:root {
+	--font-family-main: "Roboto", sans-serif;
+	--font-family-title: "Abrade", sans-serif;
+	--color-text-grey: #676767;
+	--color-border-grey: #e1e1e1;
+
+	--font-size-lower-title: 32px;
+	--font-size-main: 18px;
+	--line-height-main: 1.4;
+	--font-size-title: 32px;
+	--line-height-title: 1.1;
+	--font-size-subtitle: 14px;
+	--line-height-subtitle: 1.4;
+
+	@media (max-width: 768px) {
+		--font-size-main: 16px;
+		--font-size-lower-title: 28px;
+	}
+}
