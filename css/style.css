@@ -103,6 +103,9 @@ body h2 {
   font-weight: 700;
   margin-bottom: 30px;
 }
+a{
+	text-decoration: none;
+}
 
 .breadcrumbs-wrapper .container .breadcrumbs {
   color: var(--color-text-grey);
@@ -325,7 +328,7 @@ body h2 {
   .alx-pros .container .pros__cards-wrapper {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
+    
         grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px;
   }
@@ -339,7 +342,7 @@ body h2 {
   .alx-pros .container .pros__cards-wrapper {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[1];
+    
         grid-template-columns: repeat(1, 1fr);
     grid-gap: 0px;
   }
@@ -748,6 +751,7 @@ body h2 {
   margin: 0;
   text-transform: uppercase;
   font-family: "Abrade-normal";
+	border: none;
 }
 
 .alx-contacts .container .tab-buttons .scroll-wrapper button:hover {
