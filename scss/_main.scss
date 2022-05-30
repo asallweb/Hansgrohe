@@ -508,6 +508,13 @@ body {
 .alx-contacts {
 	margin-bottom: 80px;
 	.container {
+		h1{
+			font-family: var(--font-family-title);
+			font-size: var(--font-size-title);
+			line-height: var(--line-height-title);
+			font-weight: 700;
+			margin-bottom: 30px;
+		}
 		h3 {
 			font-size: var(--font-size-main);
 			font-weight: 700;
