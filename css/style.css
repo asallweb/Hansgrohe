@@ -714,12 +714,14 @@ body h2 {
 .alx-contacts .container .contacts__cards-wrapper .card .card__info h4 {
   font-size: var(--font-size-subtitle);
   font-weight: 700;
-  margin-bottom: 6px;
+  margin-bottom: 3px;
+  margin-top: 0;
 }
 
 .alx-contacts .container .contacts__cards-wrapper .card .card__info .underlined {
   border-bottom: 1px dotted #4486c3;
   display: inline-block;
+  text-decoration: none;
 }
 
 .alx-contacts .container .contacts__cards-wrapper .card .card__info a {
@@ -728,6 +730,7 @@ body h2 {
   transition: opacity 0.3s ease-in-out;
   font-size: var(--font-size-main);
   margin-bottom: 8px;
+  text-decoration: none;
 }
 
 .alx-contacts .container .contacts__cards-wrapper .card .card__info a:hover {
@@ -796,10 +799,13 @@ body h2 {
 
 .alx-contacts .container .tab-item h4 {
   font-size: var(--font-size-main);
+  font-weight: 700;
+  margin-bottom: 12px;
+  margin-top: 0;
 }
 
 .alx-contacts .container .tab-item .tab-item__content-wrapper {
-  margin-top: 20px;
+  margin-top: 30px;
   grid-gap: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -821,6 +827,7 @@ body h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-decoration: none;
 }
 
 .alx-contacts .container .tab-item .tab-item__content-wrapper .tab-item__link .img-wrapper {
@@ -860,6 +867,8 @@ body h2 {
 
 .alx-contacts .container .tab-item .tab-item__content-wrapper .address-item .info h4 {
   font-size: var(--font-size-subtitle);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .alx-contacts .container .tab-item .tab-item__content-wrapper .address-item .info .subtitle {
