@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 .absoluteCenter {
   position: absolute;
   top: 50%;
@@ -54,6 +54,7 @@
   --font-family-title: "Abrade", sans-serif;
   --color-text-grey: #676767;
   --color-border-grey: #e1e1e1;
+  --color-black-title: #1e1e1e;
   --font-size-lower-title: 32px;
   --font-size-main: 18px;
   --line-height-main: 1.4;
@@ -82,6 +83,7 @@ body {
   font-size: var(--font-size-main);
   line-height: var(--line-height-main);
   overflow-x: hidden;
+  margin: 0;
 }
 
 body .container {
@@ -97,6 +99,7 @@ body h2 {
   line-height: var(--line-height-title);
   font-weight: 700;
   margin-bottom: 30px;
+  color: var(--color-black-title);
 }
 
 .breadcrumbs-wrapper .container .breadcrumbs {
@@ -155,6 +158,7 @@ body h2 {
   font-weight: 700;
   margin-bottom: 30px;
   margin-top: 0;
+  color: var(--color-black-title);
 }
 
 .alx-head-block .banner {
@@ -182,15 +186,19 @@ body h2 {
 }
 
 .alx-head-block .banner .banner__info h2 {
+  margin-top: 0;
   margin-bottom: 20px;
   max-width: 575px;
   width: 100%;
   font-size: var(--font-size-lower-title);
+  color: var(--color-black-title);
 }
 
 .alx-head-block .banner .banner__info p {
   max-width: 575px;
   width: 100%;
+  margin-bottom: 0;
+  color: var(--color-black-title);
 }
 
 @media (max-width: 992px) {
@@ -222,6 +230,8 @@ body h2 {
 .alx-pros .container h2 {
   max-width: 575px;
   font-size: var(--font-size-lower-title);
+  color: var(--color-black-title);
+  margin-bottom: 45px;
 }
 
 .alx-pros .container .pros__wrapper {
@@ -269,6 +279,7 @@ body h2 {
 }
 
 .alx-pros .container .pros__wrapper .item p {
+  margin-top: 0;
   color: var(--color-text-grey);
   font-size: var(--font-size-subtitle);
   line-height: var(--line-height-subtitle);
@@ -285,7 +296,7 @@ body h2 {
   -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
   border-right: 1px solid var(--color-border-grey);
-  padding: 35px 1vw;
+  padding: 30px 1vw;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
 }
@@ -300,14 +311,17 @@ body h2 {
 }
 
 .alx-pros .container .pros__cards-wrapper .card h3 {
+  margin-top: 0;
   font-size: var(--font-size-subtitle);
   font-family: var(--font-family-title);
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
+  color: var(--color-black-title);
 }
 
 .alx-pros .container .pros__cards-wrapper .card p {
+  margin-bottom: 0;
   font-size: var(--font-size-subtitle);
   color: var(--color-text-grey);
 }
@@ -376,9 +390,11 @@ body h2 {
 
 .alx-slider-block .container .slider-block__info h2 {
   margin-bottom: 10px;
+  margin-top: 0;
 }
 
 .alx-slider-block .container .slider-block__info p {
+  margin-bottom: 0;
   font-size: var(--font-size-subtitle);
   color: var(--color-text-grey);
   padding-bottom: 20px;
@@ -392,6 +408,7 @@ body h2 {
   display: -ms-inline-flexbox;
   display: inline-flex;
   max-width: 219px;
+  color: var(--color-black-title);
 }
 
 .alx-slider-block .container .slider-block__slider {
@@ -527,7 +544,7 @@ body h2 {
 .alx-certificates .container p {
   max-width: 674px;
   font-size: var(--font-size-subtitle);
-  color: var(--color-text-grey);
+  color: #4a4a4a;
 }
 
 .alx-certificates .container .certificates__slider {
@@ -651,12 +668,14 @@ body h2 {
   font-weight: 700;
   margin-bottom: 30px;
   margin-top: 0;
+  color: var(--color-black-title);
 }
 
 .alx-contacts .container h3 {
   font-size: var(--font-size-main);
   font-weight: 700;
   margin-bottom: 25px;
+  color: var(--color-black-title);
 }
 
 .alx-contacts .container .contacts__cards-wrapper {
@@ -716,6 +735,7 @@ body h2 {
   font-weight: 700;
   margin-bottom: 3px;
   margin-top: 0;
+  color: var(--color-black-title);
 }
 
 .alx-contacts .container .contacts__cards-wrapper .card .card__info .underlined {
@@ -744,7 +764,7 @@ body h2 {
 
 .alx-contacts .container .tab-buttons {
   border-bottom: 1px solid var(--color-border-grey);
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .alx-contacts .container .tab-buttons .scroll-wrapper {
@@ -769,6 +789,8 @@ body h2 {
   margin: 0;
   text-transform: uppercase;
   font-family: "Abrade-normal";
+  color: var(--color-black-title);
+  font-weight: 500;
 }
 
 .alx-contacts .container .tab-buttons .scroll-wrapper button:hover {
@@ -802,6 +824,7 @@ body h2 {
   font-weight: 700;
   margin-bottom: 12px;
   margin-top: 0;
+  color: var(--color-black-title);
 }
 
 .alx-contacts .container .tab-item .tab-item__content-wrapper {
@@ -828,6 +851,7 @@ body h2 {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
+  font-weight: 500;
 }
 
 .alx-contacts .container .tab-item .tab-item__content-wrapper .tab-item__link .img-wrapper {
@@ -839,7 +863,7 @@ body h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  grid-gap: 20px;
+  grid-gap: 14px;
   max-width: 210px;
   width: 100%;
 }
@@ -869,6 +893,7 @@ body h2 {
   font-size: var(--font-size-subtitle);
   margin-top: 0;
   margin-bottom: 0;
+  color: var(--color-black-title);
 }
 
 .alx-contacts .container .tab-item .tab-item__content-wrapper .address-item .info .subtitle {
@@ -907,6 +932,10 @@ body h2 {
           flex-direction: column;
   grid-gap: 8px;
   margin-top: 30px;
+}
+
+.alx-contacts .container .tab-item .tab-item__foot-block h4 {
+  margin-bottom: 7px;
 }
 
 .alx-contacts .container .tab-item .tab-item__foot-block span {
