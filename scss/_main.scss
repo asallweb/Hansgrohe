@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: var(--font-family-main);
 	font-size: var(--font-size-main);
@@ -46,6 +52,13 @@ body {
 
 			a {
 				transition: opacity 0.3s ease-in-out;
+				text-decoration: none;
+				color: var(--color-text-grey);
+
+				&:hover {
+					opacity: 0.7;
+					cursor: pointer;
+				}
 			}
 
 			.separator {
@@ -69,6 +82,7 @@ body {
 		line-height: var(--line-height-title);
 		font-weight: 700;
 		margin-bottom: 30px;
+		margin-top: 0;
 	}
 
 	.banner {
@@ -180,6 +194,7 @@ body {
 				flex-basis: 25%;
 				border-right: 1px solid var(--color-border-grey);
 				padding: 35px 1vw;
+				box-shadow: none !important;
 
 				&:first-child {
 					padding-left: 0;
@@ -294,8 +309,8 @@ body {
 				z-index: 4;
 				transition: opacity 0.3s ease-in-out;
 				position: absolute;
-				bottom: -33px;
-				right: calc(-2.8vw + -53px);
+				bottom: -24px;
+				right: calc(-2.8vw + -46px);
 				top: unset;
 				left: unset;
 				width: 46px;
@@ -327,8 +342,8 @@ body {
 				z-index: 4;
 				transition: opacity 0.3s ease-in-out;
 				position: absolute;
-				bottom: -33px;
-				right: calc(-2.8vw + -120px);
+				bottom: -24px;
+				right: calc(-2.8vw + -110px);
 				top: unset;
 				left: unset;
 				width: 46px;
@@ -425,8 +440,8 @@ body {
 				z-index: 4;
 				transition: opacity 0.3s ease-in-out;
 				position: absolute;
-				left: -33px;
-				top: 48%;
+				left: -21px;
+				top: 50%;
 				width: 46px;
 				height: 46px;
 
@@ -457,8 +472,8 @@ body {
 				z-index: 4;
 				transition: opacity 0.3s ease-in-out;
 				position: absolute;
-				top: 48%;
-				right: -33px;
+				top: 50%;
+				right: -23px;
 				width: 46px;
 				height: 46px;
 
@@ -507,14 +522,16 @@ body {
 
 .alx-contacts {
 	margin-bottom: 80px;
+	h1 {
+		font-family: var(--font-family-title);
+		font-size: var(--font-size-title);
+		line-height: var(--line-height-title);
+		font-weight: 700;
+		margin-bottom: 30px;
+		margin-top: 0;
+	}
+
 	.container {
-		h1{
-			font-family: var(--font-family-title);
-			font-size: var(--font-size-title);
-			line-height: var(--line-height-title);
-			font-weight: 700;
-			margin-bottom: 30px;
-		}
 		h3 {
 			font-size: var(--font-size-main);
 			font-weight: 700;
@@ -530,6 +547,8 @@ body {
 				width: 100%;
 				display: inline-flex;
 				grid-gap: 20px;
+				box-shadow: none !important;
+
 				.icon-wrapper {
 					max-width: 66px;
 					width: 100%;
@@ -595,6 +614,8 @@ body {
 				grid-gap: 40px;
 
 				button {
+					outline: none;
+					border: none;
 					padding: 20px 0;
 					background-color: transparent;
 					position: relative;
@@ -607,6 +628,7 @@ body {
 
 					&:hover {
 						opacity: 0.7;
+						cursor: pointer;
 					}
 
 					&.active {
